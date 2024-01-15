@@ -50,11 +50,12 @@ Pegasus achieves state-of-the-art summarization performance on all 12 downstream
 
     ```bash
     docker run -p 8000:8000 text-summarizer
+    
     ```
 
 
 
 ### Future Developments:
 
-    I plan to diversify training datasets, introduce domain-specific corpora for robustness. Optimize hyperparameters more as per domain requirements, experiment with model architectures, and will explore transfer learning techniques. I also want to develop advanced MLOPS pipelines for continuous model monitoring, updates, and effortless cloud orchestration. I will also implement adversarial training for robustness against input variations.
+I plan to diversify training datasets, introduce domain-specific corpora for robustness. Optimize hyperparameters more as per domain requirements, experiment with model architectures, and will explore transfer learning techniques. I also want to develop advanced MLOPS pipelines for continuous model monitoring, updates, and effortless cloud orchestration. I will also implement adversarial training for robustness against input variations.
 
