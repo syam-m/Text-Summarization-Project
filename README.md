@@ -36,11 +36,20 @@ Pegasus achieves state-of-the-art summarization performance on all 12 downstream
     Once the Docker image is launched, it will automatically start the app.py file. Open the provided UI host path in your browser window to test the summarizer with your input of choice.
 
     #### Navigate to the directory containing the Dockerfile
+
+    ```bash
     cd path/to/Text-Summarization-Project
+    ```
 
     #### Build the Docker image
-    docker build -t text-summarizer .
+
+    ```bash
+    docker build -t text-summarizer
+    ```
 
     #### Run the Docker container
+    
+    ```bash
     docker run -p 8000:8000 text-summarizer
+    ```
 
