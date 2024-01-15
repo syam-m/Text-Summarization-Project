@@ -37,7 +37,7 @@ Pegasus achieves state-of-the-art summarization performance on all 12 downstream
     #### Navigate to the directory containing the Dockerfile
 
     ```bash
-    cd path/to/Text-Summarization-Project
+    cd /Text-Summarization-Project
     ```
 
     #### Build the Docker image
